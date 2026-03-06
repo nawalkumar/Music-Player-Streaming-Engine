@@ -48,6 +48,7 @@ Adapter
 The Facade acts as the main entry point that coordinates all subsystems.
 
 🧠 Design Patterns Implemented
+
 1️⃣ Strategy Pattern
 
 Used to support different song playback strategies.
@@ -68,6 +69,7 @@ PlayStrategy
    ├── SequentialPlay
    ├── RandomPlay
    └── CustomQueuePlay
+   
 2️⃣ Factory Pattern
 
 Used to create device objects dynamically without exposing creation logic.
@@ -85,6 +87,7 @@ External Audio Device
 Example:
 
 DeviceFactory → createDevice(type)
+
 3️⃣ Adapter Pattern
 
 Used to integrate external or third-party audio devices whose interfaces differ from the internal player interface.
@@ -98,6 +101,7 @@ ExternalDeviceAPI
       │
       ▼
    Player
+   
 4️⃣ Singleton Pattern
 
 Ensures that only one instance of core managers exists in the system.
@@ -140,6 +144,7 @@ Streaming Engine
 
 Player
 
+
 6️⃣ Command Pattern
 
 Encapsulates actions as command objects, allowing flexible command execution.
@@ -167,6 +172,7 @@ Enables command queuing
 Supports undo/redo operations
 
 📂 Project Structure
+
 Music-Player-Streaming-Engine
 │
 ├── models
@@ -210,6 +216,7 @@ Data Structures
 
 🎯 Learning Objectives
 
+
 This project demonstrates:
 
 Low Level System Design
@@ -224,6 +231,7 @@ It serves as a practice project for software engineering interviews and system d
 
 🔮 Future Improvements
 
+
 Possible enhancements include:
 
 Song recommendation engine
@@ -237,6 +245,7 @@ Undo/Redo command history
 UI integration
 
 👨‍💻 Author
+
 
 Naval Kumar
 
