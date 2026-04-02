@@ -175,7 +175,7 @@ Benefits:
     Enables command queuing
     
     Supports undo/redo operations
-
+```
 📂 Project Structure
               Music-Player-Streaming-Engine
               │
@@ -208,6 +208,7 @@ Benefits:
               │   └── MusicSystemFacade
               │
               └── main.cpp
+```
 💻 Technologies Used
 
     C++
