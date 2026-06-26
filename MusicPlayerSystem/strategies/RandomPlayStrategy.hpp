@@ -1,5 +1,7 @@
 #pragma once
 #include<iostream>
+#include<vector>
+#include<stack>
 #include "../models/Playlist.hpp"
 #include "PlayStrategy.hpp"
 
